@@ -81,9 +81,8 @@
     position: relative;
 }
 
-.aligned-text{
-    line-height: 115%; /* 115px */
-    letter-spacing: 30px;
+.letter-spacing-extended{
+    letter-spacing: 60px;
 }
 
 .aligned-text_center{
@@ -98,19 +97,6 @@
 
 .no-letter-spacing {
     letter-spacing: normal;
-}
-
-.aligned-text_center .letter-spacing-extended{
-    letter-spacing: 27px;
-}
-
-.letter-spacing-extended{
-    letter-spacing: 9px;
-
-}
-
-.aligned-text_right .letter-spacing-extended{
-    letter-spacing: 5px;
 }
 
 .cover__description{
@@ -129,8 +115,6 @@
     align-items: center;
     gap: 78px;
     padding-top: 135px;
-
-
 }
 
 .cover__description-text{
