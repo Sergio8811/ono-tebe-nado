@@ -4,7 +4,7 @@
 
 .header__menu {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -20,10 +20,13 @@
 }
 
 .header__links-list {
-    list-style: none;
+    list-style: circle inside;
     display: flex;
-    gap: 12px;
-    align-items: center;
+    gap: 10px;
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
 }
 
 .header__link_active {
@@ -66,7 +69,7 @@
 
 .cover__title {
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -101,7 +104,7 @@
 .cover__description {
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -126,7 +129,7 @@
     background: transparent;
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +149,7 @@
     margin-left: 40px;
     margin-bottom: 27px;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -182,7 +185,7 @@
 
 .card__title {
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -195,7 +198,7 @@
 
 .card__text {
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -228,7 +231,7 @@
 }
 .lots__look-more-link {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -268,7 +271,7 @@
     padding-top: 100px;
     margin-bottom: 100px;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -278,21 +281,21 @@
 
 .about__text {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.about__article p:first-of-type {
+.about__text p:not(:last-child) {
     margin-bottom: 25px;
 }
 
 .footer {
     padding: 0 50px 90px;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -322,17 +325,7 @@
     justify-self: end;
 }
 
-.yt {
-    height: 48px;
-    width: 48px;
-}
-
-.vk {
-    height: 48px;
-    width: 48px;
-}
-
-.pint {
+.footer__social-icon {
     height: 48px;
     width: 48px;
 }
